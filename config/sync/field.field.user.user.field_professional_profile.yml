@@ -1,0 +1,30 @@
+uuid: 81304748-d4c5-45b4-96a9-fe1c8f61f8cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_professional_profile
+    - taxonomy.vocabulary.professional_field
+  module:
+    - user
+id: user.user.field_professional_profile
+field_name: field_professional_profile
+entity_type: user
+bundle: user
+label: 'Professional profile'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      professional_field: professional_field
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

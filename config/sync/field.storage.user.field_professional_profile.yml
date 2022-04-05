@@ -1,0 +1,20 @@
+uuid: 99a62dd8-bcb0-4b8b-8db3-05af2925fcc2
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - user
+id: user.field_professional_profile
+field_name: field_professional_profile
+entity_type: user
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -4,6 +4,12 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
+    - field.field.user.user.field_dob
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_last_name
+    - field.field.user.user.field_number_of_children
+    - field.field.user.user.field_personal_interests
+    - field.field.user.user.field_professional_profile
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -26,4 +32,10 @@ content:
     weight: 0
     region: content
 hidden:
+  field_dob: true
+  field_first_name: true
+  field_last_name: true
+  field_number_of_children: true
+  field_personal_interests: true
+  field_professional_profile: true
   member_for: true

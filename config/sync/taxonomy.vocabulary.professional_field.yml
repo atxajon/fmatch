@@ -1,0 +1,8 @@
+uuid: 236c1a0e-08be-4bb4-8707-b8fe8fc3945f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Professional field'
+vid: professional_field
+description: ''
+weight: 0

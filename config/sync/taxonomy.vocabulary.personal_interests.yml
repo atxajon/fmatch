@@ -1,0 +1,8 @@
+uuid: a3de832a-2158-4415-95f5-3bde3b21170c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Personal interests'
+vid: personal_interests
+description: ''
+weight: 0
